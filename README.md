@@ -1,26 +1,24 @@
-# Lumen PHP Framework
+# THIS APPLICATION IS USING LUMEN FRAMEWORK
 
-[![Build Status](https://travis-ci.org/laravel/lumen-framework.svg)](https://travis-ci.org/laravel/lumen-framework)
-[![Total Downloads](https://img.shields.io/packagist/dt/laravel/lumen-framework)](https://packagist.org/packages/laravel/lumen-framework)
-[![Latest Stable Version](https://img.shields.io/packagist/v/laravel/lumen-framework)](https://packagist.org/packages/laravel/lumen-framework)
-[![License](https://img.shields.io/packagist/l/laravel/lumen)](https://packagist.org/packages/laravel/lumen-framework)
+## REQUIRMENTS
+- PHP 8.0+
+- MYSQL
+- COMPOSER
 
-Laravel Lumen is a stunningly fast PHP micro-framework for building web applications with expressive, elegant syntax. We believe development must be an enjoyable, creative experience to be truly fulfilling. Lumen attempts to take the pain out of development by easing common tasks used in the majority of web projects, such as routing, database abstraction, queueing, and caching.
+## INSTALLATIONS
+- RUN `COMPOSER INSTALL`
+- CREATE FILE `.env` THEN COPY ALL VALUES FROM `.env.example`
+- ADJUST THE DATABASE CONFIGURATION WITH YOUR OWN
+- RUN `php artisan migrate` AND `php artisan db:seed` TO MIGRATE TABLE AND SEED DATA
 
-> **Note:** In the years since releasing Lumen, PHP has made a variety of wonderful performance improvements. For this reason, along with the availability of [Laravel Octane](https://laravel.com/docs/octane), we no longer recommend that you begin new projects with Lumen. Instead, we recommend always beginning new projects with [Laravel](https://laravel.com).
+## HOW TO RUN?
+- RUN `php -S localhost:8000 -t public` THEN THIS PROJECT WILL RUN ON YOUR LOCAL WITH 8000 PORT e.g (http://localhost:8000)
+- IF WANT TO RUN UNIT TEST, YOU CAN RUN `/vendor/bin/phpunit`
 
-## Official Documentation
+## API ENDPOINT
+#### THERE IS 2 ENDPOINT API FOR THIS APP THAT CAN BE ACCESSED
+- `http://localhost:8000/api/users` TO GET ALL USERS DATA
+- `http://localhost:8000/api/users/userId` TO GET SINGLE USER DATA BASED ON ID
 
-Documentation for the framework can be found on the [Lumen website](https://lumen.laravel.com/docs).
-
-## Contributing
-
-Thank you for considering contributing to Lumen! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
-
-## Security Vulnerabilities
-
-If you discover a security vulnerability within Lumen, please send an e-mail to Taylor Otwell at taylor@laravel.com. All security vulnerabilities will be promptly addressed.
-
-## License
-
-The Lumen framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+## DEMO
+<a href="https://aone-backend.000webhostapp.com/" target="_blank">URL</a>
